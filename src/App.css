@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.App {
+  padding: 5rem;
+}
+.box-container {
+  padding-bottom: 20rem;
+}
+.box {
+  width: 10rem;
+  height: 10rem;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.boxItem {
+  /* width: 0rem;
+  height: 0rem; */
+  background-color: white;
+  padding: 0.8rem;
+  list-style: none;
+  margin: 0.2rem;
+}
+button {
+  background-color: rgb(48, 155, 197);
+  color: white;
+  margin: 1rem;
+  border: none;
+  font-size: 1.25rem;
+  padding: 0.6rem;
+  font-variant: small-caps;
+  cursor: pointer;
+}
